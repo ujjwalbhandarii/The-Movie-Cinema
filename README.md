@@ -34,7 +34,8 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
 
 ## How to run the project using Docker
 
-1. Start the docker deamon
+1. Start the docker daemon.
+2. Use the below command for running and building the docker container.
 
 - Build the project: `docker build -f Dockerfile -t my-flask-app .`
 - Run the project: `docker run -d -p 5000:5000 --name flask-app my-flask-app`
